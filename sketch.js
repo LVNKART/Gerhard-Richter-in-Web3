@@ -19,6 +19,7 @@ let currentMovementModeIndex = 0;
 
 function setup() {
   createCanvas(2000, 2000, WEBGL);
+  canvas.parent('canvas-container');
   angleMode(DEGREES);
 	frozen = false;
 
